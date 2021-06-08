@@ -389,15 +389,15 @@ demo = {
   },
 
   showNotification: function(from, align) {
-    color = 'primary';
+    color = 'success';
 
     $.notify({
       icon: "nc-icon nc-bell-55",
-      message: "Welcome to <b>Paper Dashboard</b> - a beautiful bootstrap dashboard for every web developer."
-
+      // message: "Welcome to <b>Paper Dashboard</b> - a beautiful bootstrap dashboard for every web developer."
+      message: "<b style='color: white;'>Thêm vào giỏ hàng thành công</b>"
     }, {
       type: color,
-      timer: 8000,
+      timer: 1,
       placement: {
         from: from,
         align: align
